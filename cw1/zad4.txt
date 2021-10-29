@@ -1,0 +1,3 @@
+-utworzyś skrypt, który jest prostym kalulatorem potęgowym.
+-bazuje na dwóch inputach liczbowych oraz trzecim, w którym pojawia się rozwiązanie działania potęgowego
+-przykład rozwiązania: https://github.com/Michal3456/js-learn/blob/main/images/Screenshot_164.jpg
