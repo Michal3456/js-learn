@@ -1,0 +1,55 @@
+<script>
+    function fun1() {
+        let table_in_table = [
+        [1, 2], 
+        [6, 4], 
+        [6.6, 4], 
+        [4, 3]];
+    console.log(table_in_table);
+
+    for (let i in table_in_table)
+    {
+        console.log("ID:"+i+" wartość: "+table_in_table[i]);
+        for (let j in table_in_table[i])
+        {
+            console.log("PODID"+j+"wartość podt: "+table_in_table[i][j])
+        }
+    }
+
+    }
+    // zad1();
+    function zad2() {
+        let S = {
+            "Jan": "Kowlaski",
+            "Iza":"Green",
+            "Aleksandra":"Smith"}
+        console.log(S);
+
+        for (let [key, value] of Object.entries(S))
+        {
+        console.log(key, value);
+        }
+    }
+    //zad2();
+    function zad3() {
+        let M =[
+            [1,0,0,1],
+            [0,1,1,0],
+            [0,1,1,0],
+            [0,0,0,0]
+        ]
+        for (let i in M)
+        {
+            console.log("ID:"+i+" wartość: "+M[i]);
+            for (let j in M[i])
+            {
+                console.log("PODID"+j+"wartość podt: "+M[i][j])
+            }
+        }
+    }
+    //zad3();
+
+
+
+
+</script>
